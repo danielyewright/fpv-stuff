@@ -3,7 +3,7 @@
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, clear, vtx
-#$ AUTHOR: Cap
+#$ AUTHOR: DCFPV
 #$ DESCRIPTION: Resets VTx settings and table back to 4.3 Defaults
 #$ DESCRIPTION: Only the checked settings will be reset
 
