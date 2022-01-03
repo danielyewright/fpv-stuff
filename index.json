@@ -116,6 +116,7 @@
     "author": [
       "Betaflight",
       "Cap",
+      "DCFPV",
       "Joshua Bardwell",
       "ctzsnooze",
       "sugarK"
@@ -127,6 +128,7 @@
       "50hz",
       "Cap",
       "Crossfire",
+      "DCFPV",
       "DShot telemetry",
       "ELRS",
       "GPS",
@@ -922,6 +924,29 @@
       "discussion": "https://github.com/betaflight/firmware-presets/pull/94",
       "include": [
         "presets/4.3/rates/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rates/DCFPV.txt",
+      "hash": "f53a8ae476773facabb17f20ac6395106c29ed5912cde4c0d97a99b85ad55c99",
+      "options": [],
+      "title": "DCFPV Default rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "DCFPV",
+        "rates",
+        "actual"
+      ],
+      "author": "DCFPV",
+      "description": [
+        "Default DCFPV rates - ACTUAL",
+        "Will be applied for the currently selected rate profile",
+        "TPA values are not included",
+        "Throttle limit and curve are not included"
       ]
     },
     {
