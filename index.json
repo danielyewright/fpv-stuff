@@ -115,6 +115,7 @@
     ],
     "author": [
       "Betaflight",
+      "Cap",
       "Joshua Bardwell",
       "ctzsnooze",
       "sugarK"
@@ -124,13 +125,17 @@
       "250hz",
       "500hz",
       "50hz",
+      "Cap",
       "Crossfire",
       "DShot telemetry",
       "ELRS",
       "GPS",
+      "HDO2",
       "HD_freestyle",
       "OSD",
       "TBS",
+      "TX16S",
+      "XF",
       "actual",
       "adjustments",
       "aggressive",
@@ -566,6 +571,31 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/modes/Cap XF.txt",
+      "hash": "2bf25f0b86fe79c32003be45bf74abbe08fc0fbee1b41d14e27fd67640330ac2",
+      "options": [],
+      "title": "CAP XF Tx16S",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Cap",
+        "TX16S",
+        "XF",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "Cap",
+      "description": [
+        "Cap Tx16s XF Default Modes for 12ch"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/modes/defaults.txt",
       "hash": "16a19e27a46efcd9f86d56f17e8fe82356921399cc0c5502e257e33ef8c321c3",
       "options": [],
@@ -587,6 +617,26 @@
       "author": "Betaflight",
       "description": [
         "Resets modes and adjustment ranges to 4.3 defaults"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/osd/Cap HDO.txt",
+      "hash": "82b4bc2dd3a047d47480716080433e5bed1f8b99f84821cdb113ddbed57424e6",
+      "options": [],
+      "title": "CAP HDO",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Cap",
+        "HDO2",
+        "OSD"
+      ],
+      "author": "Cap",
+      "description": [
+        "Cap Personal OSD for HDO"
       ]
     },
     {
@@ -1898,6 +1948,28 @@
       "author": "Betaflight",
       "description": [
         "Resets only the VTX table back to 4.3 Defaults",
+        "Only the checked settings will be reset"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/xilo.txt",
+      "hash": "48f457b39c6db911a7cf5189e8c32102cce3ca420ee908fe449af67a12fb4e98",
+      "options": [],
+      "title": "XILO",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "clear",
+        "vtx"
+      ],
+      "author": "Cap",
+      "description": [
+        "Resets VTx settings and table back to 4.3 Defaults",
         "Only the checked settings will be reset"
       ]
     }
